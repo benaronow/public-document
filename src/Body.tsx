@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { tss } from "tss-react/mui";
 import me from "./assets/me.jpg";
 
@@ -77,14 +77,24 @@ const useStyles = tss.create(() => ({
   articleTextContainer: {
     display: "flex",
     flexDirection: "column",
+    minWidth: 500,
+    maxWidth: 600,
     textAlign: "left",
     fontFamily: "serif",
     fontSize: "120%",
+    overflowWrap: "break-word",
+  },
+  showButton: {
+    "&:hover": {
+      cursor: "pointer",
+    },
   },
 }));
 
 export const Body = () => {
   const { classes, cx } = useStyles();
+  const [showContextNote, setShowContextNote] = useState(false);
+  const [showWorksCited, setShowWorksCited] = useState(false);
 
   return (
     <div className={cx(classes.bodyContainer)}>
@@ -122,20 +132,126 @@ export const Body = () => {
           <span style={{ alignSelf: "left" }}>April 4, 2024</span>
         </div>
         <div className={cx(classes.articleTextContainer)}>
-          <span>
-            <b>Context Note</b> <br />
-            This is the context note. It will have lots of words and break
-            correctly in the right spot so that everything looks good.
+          <div>
+            <p
+              onClick={() => setShowContextNote(!showContextNote)}
+              className={cx(classes.showButton)}
+            >
+              <b>
+                {showContextNote ? "Hide Context Note" : "Show Context Note"}
+              </b>
+            </p>
+            {showContextNote && (
+              <p>
+                This document is of the proposal genre, as it suggests a
+                guideline to be followed by its readers. The purpose of the
+                document is to address the issue of the environmental impact
+                that autonomous vehicles (AVs) will have as they increase in
+                popularity through hopefully encouraging readers to make more
+                environmentally-conscious decisions surrounding these vehicles.
+                The intended audience made up of these readers consists of young
+                college graduates that are at the age where they may be thinking
+                about starting a household or a family, or about 25-30. The
+                reason for this being the target demographic is that they will
+                very likely be in the market for a car, specifically a daily
+                driver to get them to and from work and possibly to start taking
+                a child around, necessitating a newer, safer, technologically
+                advanced vehicle, such as autonomous driving features. The
+                essence of the knowledge that readers outside of the previously
+                defined audience scope should obtain prior to viewing this
+                document is as follows: As the production and distribution of
+                autonomous vehicle technology becomes more widespread, the
+                mechanical and computational progressions are contributing to a
+                vast amount of carbon emissions. Refraining from use of these
+                vehicles as much as possible before certain environmentally
+                conscious techniques are put in place would aid in avoiding
+                environmental catastrophe as the industry continues to grow.
+              </p>
+            )}
+          </div>
+
+          <div>
+            <p>
+              <b>Public Document</b>
+            </p>
+            <p>
+              This is the actual essay. It will also have lots of words and
+              break correctly in the right spot so that everything looks good.
+            </p>
+          </div>
+
+          <div>
+            <p
+              onClick={() => setShowWorksCited(!showWorksCited)}
+              className={cx(classes.showButton)}
+            >
+              <b>{showWorksCited ? "Hide Works Cited" : "Show Works Cited"}</b>
+            </p>
+            {showWorksCited && (
+              <p>
+                <ol>
+                  <li>
+                    Causes and effects of climate change (2020) Climate Action.
+                    Available at:
+                    https://www.un.org/en/climatechange/science/causes-effects-climate-change#:~:text=As%20greenhouse%20gas%20emissions%20blanket,the%20usual%20balance%20of%20nature.
+                    (Accessed: 24 March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Climate change impacts (2021) National Oceanic and
+                    Atmospheric Administration. Available at:
+                    https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts
+                    (Accessed: 24 March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Doherty, R. et al. (2023) The triple play: Growth, profit,
+                    and sustainability, McKinsey & Company. Available at:
+                    https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-triple-play-growth-profit-and-sustainability
+                    (Accessed: 24 March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Eco-driving means driving smarter (2011) Texas
+                    Transportation Researcher. Available at:
+                    https://tti.tamu.edu/researcher/eco-driving-means-driving-smarter/#:~:text=Eco%2Ddriving%20involves%20adopting%20driving,of%20a%20%E2%80%9Clead%20foot.%E2%80%9D
+                    (Accessed: 24 March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Greenhouse gas emissions from a typical passenger vehicle
+                    (2023) EPA. Available at:
+                    https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
+                    (Accessed: 24 March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Jayawardana, V. and Wu, C. (2022) Learning eco-driving
+                    strategies at signalized intersections, IEEE Xplore.
+                    Available at: https://ieeexplore.ieee.org/document/9838000
+                    (Accessed: 24 March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Sudhakar, S., Sze, V. and Karaman, S. (2022) Data centers on
+                    Wheels: Emissions from computing onboard autonomous
+                    vehicles, IEEE Xplore. Available at:
+                    https://ieeexplore.ieee.org/document/9942310 (Accessed: 24
+                    March 2024).
+                  </li>
+                  <br />
+                  <li>
+                    Zakutniaia, A. and Hayriyan, A. (2017) Transparency as
+                    competitive advantage of innovation driven ...,
+                    ResearchGate. Available at:
+                    https://www.researchgate.net/publication/316767094_Transparency_as_competitive_advantage_of_innovation_driven_companies
+                    (Accessed: 24 March 2024).
+                  </li>
+                </ol>
+              </p>
+            )}
             <br />
-            <br />
-            <b>Public Document</b> <br />
-            This is the actual essay. It will also have lots of words and break
-            correctly in the right spot so that everything looks good.
-            <br />
-            <br />
-            <b>Works Cited</b> <br />
-            These are my sources. They will be largely the same as in Unit 3.
-          </span>
+          </div>
         </div>
       </div>
     </div>
