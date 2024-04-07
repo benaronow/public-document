@@ -86,7 +86,8 @@ export const Header = () => {
         </span>
         <span className={cx(classes.articleSubtitle)}>
           New studies suggest they may not be as good for the <br /> atmosphere
-          as their non-autonomous counterparts.
+          as their non-autonomous counterparts, <br /> but something is being
+          done to fix the problem.
         </span>
       </div>
     </div>
