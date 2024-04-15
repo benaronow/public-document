@@ -147,108 +147,126 @@ export const Body = () => {
           </div>
         </div>
         <div className={cx(classes.dateContainer)}>
-          <span style={{ alignSelf: "left" }}>April 4, 2024</span>
+          <span style={{ alignSelf: "left" }}>April 14, 2024</span>
         </div>
         <div className={cx(classes.articleTextContainer)}>
           <div>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;The fact that cars produce carbon dioxide
-              has been well-known and undisputed for decades. One driver, on
-              average, will produce 4.6 metric tons of CO<sup>2</sup> every
-              year, leading cars alone to account for a whopping 10% of total
-              global emissions.<sup>[5]</sup> Electric vehicles, upon their
-              advent, were introduced in large part to aid in the battle against
-              this emission crisis, an effort which was largely successful. They
-              produce roughly 2,700lb of CO<sup>2</sup> equivalent annually,
-              whereas gasoline-powered vehicles emit almost 12,600lb.
-              <sup>[4]</sup> Autonomous vehicles have entirely ditched internal
-              combustion engines for those of an electric nature, and therefore
-              benefit from a similar baseline reduction in emissions due to the
-              exclusion of fossil fuel in their use; however, it is within the
-              massive requirements of onboard computational technology used in
-              piloting AVs where the issue lies. Despite their electric engines,
-              self-driving cars still manage to produce a significant amount of
-              emissions due to these energy requirements, but luckily, driving
-              efficiency algorithm technology currently being implemented just
-              may be the answer to cutting the surplus carbon all the way back
-              down.
+              &nbsp;&nbsp;&nbsp;&nbsp;Cars spewing out carbon dioxide into the
+              atmosphere is news to nobody. In fact, on average, one driver
+              produces 12,600lb of CO2 every year,<sup>[5]</sup>&nbsp; leading
+              cars alone to account for a whopping 10% of total global carbon
+              emissions.<sup>[6]</sup>&nbsp; When it comes to electric cars,
+              it’s a bit of a different story. They were originally introduced
+              in large part to aid in the battle against the current emission
+              crisis, an effort which was largely successful. They produce about
+              2,700lb of CO2 equivalent annually, roughly ⅕ the emissions of
+              gasoline powered vehicles.<sup>[5]</sup>&nbsp; Recently, however,
+              a third type of car has entered the conversation: electric cars
+              that can drive themselves. Autonomous vehicles, or AVs, are all
+              electric. Therefore, they benefit from a similar baseline
+              reduction in emissions, but the massive requirements of onboard
+              computers used to pilot AVs do their best to negate these benefits
+              altogether. Luckily, driving efficiency algorithms may provide a
+              path to cutting the surplus carbon all the way back down.
               <br />
               <br />
-              &nbsp;&nbsp;&nbsp;&nbsp; Currently, 1 billion AVs driven for 1
-              hour every day is estimated to emit over 200 million tons of CO
-              <sup>2</sup> into the atmosphere annually, yielding roughly the
-              same carbon emissions as data centers worldwide,<sup>[7]</sup> or
-              the country of Argentina. These greenhouse gas emissions have the
-              potential to assert massive amounts of damage on our environment,
-              with said damage consisting of many different factors. One such
-              factor is the direct rise in temperature associated with an
-              increase in atmospheric CO<sup>2</sup>. Higher ocean temperatures
-              lead to a larger amount of hurricanes which have the potential to
-              cause drastic numbers of fatalities, with the ensuing uptick in
-              flooding rates spreading disease and chemical hazards.
-              <sup>[2]</sup>
-              This heat will also cause increased forest fires and as a result
-              lower the air quality to levels unsafe for at-risk populations.
-              <sup>[2]</sup>
-              Additionally, a loss of animal life is imminent and fast
-              approaching. The planet is currently at approximately 1 thousand
+              &nbsp;&nbsp;&nbsp;&nbsp;It’s not immediately clear how any
+              computing, much less a relatively small computer running inside of
+              a car, can produce carbon emissions. The answer actually lies not
+              in the device itself, but instead in vast data centers in which
+              supercomputers receive and handle the information being processed
+              by said device. Green Algorithms, a software created by
+              mathematician Loïc Lannelongue that allows people to estimate the
+              carbon emissions of certain computational tasks, was used to
+              calculate the carbon footprint of different supercomputers.
+              Lannelongue found that among the astronomy research department at
+              the University of Western Australia, each astronomer’s emissions
+              averaged to 37 tons of carbon annually.<sup>[1]</sup>&nbsp; The
+              carbon footprints coming from the Dutch Astronomy Council and
+              Germany’s Max Planck Institute for Astronomy were both similarly
+              alarming, totalling to another 22.7 tons.<sup>[1]</sup>&nbsp; What
+              is even more frightening about these statistics is that they are
+              for individual researchers using a limited number of computing
+              devices, whereas the data centers supporting AV fleets often
+              contain hundreds, if not thousands, of supercomputers running
+              simultaneously to process the data they receive. Currently, 1
+              billion AVs driven for 1 hour every day is estimated to emit over
+              200 million tons of CO2 into the atmosphere annually, yielding
+              roughly the same carbon emissions as data centers worldwide,
+              <sup>[8]</sup>&nbsp; or the country of Argentina. While it may be
+              difficult to ascertain the immense scope of this catastrophe
+              simply from the weight of carbon being produced, the effects on
+              our environment are far more tangible.
+              <br />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;Carbon emissions, many of which can be
+              directly attributed to data centers, are constantly asserting
+              massive amounts of damage on the Earth through myriad factors. One
+              such factor is a direct rise in ocean temperature, leading to a
+              larger number of hurricanes which have the potential to cause
+              drastic numbers of fatalities, not to mention the ensuing increase
+              in flooding rates, chemical hazards, and forest fires.
+              <sup>[3]</sup>&nbsp; Additionally, it’s estimated that melting ice
+              caps will cause the living situation of around 40% of the world’s
+              coastal population to be displaced. It’s not just people being
+              affected; the planet is currently at approximately 1 thousand
               times the risk of losing species than any other point known in
               history, such over the course of the next few decades, 1 million
-              species are forecasted to go extinct.<sup>[1]</sup> Furthermore,
-              it is estimated that around 40% of the world’s population resides
-              in coastal areas that are bound to be affected by the rising sea
-              levels,<sup>[2]</sup> causing mass displacement and distress of an
-              unfathomable number of people. These harmful ramifications of
-              climate change because of CO<sup>2</sup> emissions, due in part to
-              AVs, clearly endanger the lives of many and cannot be understated.
+              species are forecasted to go extinct.<sup>[2]</sup>&nbsp; These
+              harmful ramifications of climate change because of CO2 emissions,
+              due in part to AVs, clearly endanger the lives of many and cannot
+              be understated.
               <br />
               <br />
-              &nbsp;&nbsp;&nbsp;&nbsp; One method that manufacturers of AVs are
-              beginning to use in order to combat the previously listed effects
-              of carbon emissions is that of an increase in algorithmic prowess
-              to create a manner of driving efficiency, commonly referred to as
-              “eco-driving.” Most people driving themselves around today already
-              utilize simple eco-driving techniques in the form of avoiding
-              tailgating and rapid starts/stops along with using cruise control
-              and spending as little time idling as possible. These techniques
-              can decrease fuel consumption by up to 10%.<sup>[3]</sup> Imagine,
-              then, if a computer could take said concept to the next level and
-              execute it as efficiently as possible within the bounds of current
-              technology. Recent studies have focused specifically on
-              eco-driving algorithms using a further concept known as connected
-              autonomous vehicles (CAVs), or essentially a web of AVs
-              communicating with each other. What these studies found was that
-              fuel consumption at signalized intersections, like stop lights,
-              can be drastically decreased from the vehicles communicating with
-              each other.<sup>[6]</sup> Furthermore, when all of the vehicles at
-              an intersection are CAVs, there was as high as a 25% reduction in
-              overall CO<sup>2</sup> emissions. Not only that, but as a bonus, the speed at
-              which vehicles made it through the intersection was also decreased
-              by up to 20%.<sup>[6]</sup> While this technology is already
-              implemented to some extent, there has been an overwhelming amount
-              of independent research conducted surrounding the subject just
-              recently. Many different types of algorithms are being tested, and
-              they all have led to their own unique findings. What they do have
-              in common is a substantial decrease in emissions without any
-              ramifications to the hardware of the vehicle.<sup>[6]</sup> It’s
-              quite easy to see how significant of a discovery this technology
-              is, and how it is already changing AVs for the better, and will
-              continue to in the near future.
+              &nbsp;&nbsp;&nbsp;&nbsp;Thankfully, a new achievement in
+              technology may present one piece of the puzzle in demolishing
+              these AV-based emissions. Algorithmic driving efficiency, commonly
+              referred to as “eco-driving,” is a technique that most people
+              driving themselves around today already utilize in the form of
+              avoiding tailgating and rapid starts/stops, along with using
+              cruise control and spending as little time idling as possible.
+              These techniques, performed by an average driver, can decrease
+              fuel consumption by up to 10%.<sup>[4]</sup>&nbsp; If performed by
+              a computer, it’s obvious that the execution of said techniques
+              would be on a level of efficiency far above that of a human.
+              Recent studies have focused specifically on a concept known as
+              connected autonomous vehicles (CAVs), or essentially a web of AVs
+              communicating with each other to accomplish the most efficient
+              eco-driving possible. What these studies found was that emissions
+              at signalized intersections, like stop lights, can be drastically
+              decreased from the vehicles communicating with each other.
+              <sup>[7]</sup>&nbsp; In essence, if each car already knows the
+              intended movement of every surrounding car and the timing of stop
+              lights, they can move exactly the right amount at precisely the
+              right times without computing those decisions in real time. When
+              all of the vehicles at an intersection are CAVs, there was as high
+              as a 25% reduction in overall CO2 emissions. Not only that, but as
+              a bonus, the speed at which vehicles made it through the
+              intersection was also decreased by up to 20% due to the
+              near-maximal efficiency of the cars’ movement.<sup>[7]</sup>&nbsp;
+              While manufacturers have attempted to implement this technology in
+              the past, there has recently been an overwhelming amount of
+              independent research conducted surrounding the subject. Many
+              different types of algorithms are being tested, and they all have
+              led to their own unique findings. What they have in common is the
+              ability to substantially decrease AV emissions without any
+              ramifications to the hardware of the vehicle.<sup>[7]</sup>&nbsp;
+              The effects this technology has on the environment will no doubt
+              be significant, and it’s only improving as time goes on.
               <br />
               <br />
-              &nbsp;&nbsp;&nbsp;&nbsp; Self-driving cars will certainly be the
-              future of transportation, and it won’t be long before they and
-              their large energy expenditures are commonplace on our roads.
-              However, it’s clear that not all hope is lost. By improving and
-              implementing this solution of eco-driving into the manufacturing
-              process, AV companies will substantially decrease the total carbon
-              footprint of vehicles across the globe, making a significant
-              difference concerning the issue of greenhouse gas emissions that
-              are ravaging the planet. The further exploration of the
-              eco-driving concept is one that will not cease in the near future,
-              and its potential for not only decreasing emissions but also the
-              nature in which autonomous vehicles navigate the road is extremely
-              exciting.
+              &nbsp;&nbsp;&nbsp;&nbsp;It won’t be long before self-driving cars
+              and their large energy expenditures are commonplace on our roads.
+              However, by improving and implementing this solution of
+              eco-driving into the manufacturing process, AV companies will
+              substantially decrease the total carbon footprint of vehicles
+              across the globe. The further exploration of the eco-driving
+              concept will only continue going forward, and despite the constant
+              uphill battle that is decreasing the world’s vehicular carbon
+              footprint, its potential for not only decreasing emissions but
+              also changing how autonomous vehicles navigate the road is
+              extremely exciting.
             </p>
           </div>
 
@@ -296,11 +314,13 @@ export const Body = () => {
               demographic is that they will very likely be environmentally
               conscious people in the market for a higher end, more
               technologically advanced vehicle car, such as one with autonomous
-              driving features. These readers would therefore be rather
-              interested in the topic as each aspect would be relevant to their
-              lives. The essence of the knowledge that readers outside of the
-              previously defined audience scope should obtain prior to viewing
-              this document is as follows: As the production and distribution of
+              driving features. I envision these people reading the New York
+              Times, a newspaper whose target demographic aligns with those I’ve
+              outlined. These readers would therefore be rather interested in
+              the topic as each aspect would be relevant to their lives. The
+              essence of the knowledge that readers outside of the previously
+              defined audience scope should obtain prior to viewing this
+              document is as follows: As the production and distribution of
               autonomous vehicle technology becomes more widespread, the
               mechanical and computational progressions are contributing to a
               vast amount of carbon emissions. Refraining from use of these
@@ -313,53 +333,60 @@ export const Body = () => {
             <p>
               <ol>
                 <li>
+                  Allen, M. (2022) The huge carbon footprint of large-scale
+                  computing, Physics World. Available at:
+                  https://physicsworld.com/a/the-huge-carbon-footprint-of-large-scale-computing/
+                  (Accessed: 14 April 2024).
+                </li>
+                <br />
+                <li>
                   Causes and effects of climate change (2020) Climate Action.
                   Available at:
                   https://www.un.org/en/climatechange/science/causes-effects-climate-change#:~:text=As%20greenhouse%20gas%20emissions%20blanket,the%20usual%20balance%20of%20nature.
-                  (Accessed: 24 March 2024).
+                  (Accessed: 14 April 2024).
                 </li>
                 <br />
                 <li>
                   Climate change impacts (2021) National Oceanic and Atmospheric
                   Administration. Available at:
                   https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts
-                  (Accessed: 24 March 2024).
+                  (Accessed: 14 April 2024).
                 </li>
                 <br />
                 <li>
                   Doherty, R. et al. (2023) The triple play: Growth, profit, and
                   sustainability, McKinsey & Company. Available at:
                   https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-triple-play-growth-profit-and-sustainability
-                  (Accessed: 24 March 2024).
+                  (Accessed: 14 April 2024).
                 </li>
                 <br />
                 <li>
                   Eco-driving means driving smarter (2011) Texas Transportation
                   Researcher. Available at:
                   https://tti.tamu.edu/researcher/eco-driving-means-driving-smarter/#:~:text=Eco%2Ddriving%20involves%20adopting%20driving,of%20a%20%E2%80%9Clead%20foot.%E2%80%9D
-                  (Accessed: 24 March 2024).
+                  (Accessed: 14 April 2024).
                 </li>
                 <br />
                 <li>
                   Greenhouse gas emissions from a typical passenger vehicle
                   (2023) EPA. Available at:
                   https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
-                  (Accessed: 24 March 2024).
+                  (Accessed: 14 April 2024).
                 </li>
                 <br />
                 <li>
                   Jayawardana, V. and Wu, C. (2022) Learning eco-driving
                   strategies at signalized intersections, IEEE Xplore. Available
-                  at: https://ieeexplore.ieee.org/document/9838000 (Accessed: 24
-                  March 2024).
+                  at: https://ieeexplore.ieee.org/document/9838000 (Accessed: 14
+                  April 2024).
                 </li>
                 <br />
                 <li>
                   Sudhakar, S., Sze, V. and Karaman, S. (2022) Data centers on
                   Wheels: Emissions from computing onboard autonomous vehicles,
                   IEEE Xplore. Available at:
-                  https://ieeexplore.ieee.org/document/9942310 (Accessed: 24
-                  March 2024).
+                  https://ieeexplore.ieee.org/document/9942310 (Accessed: 14
+                  April 2024).
                 </li>
                 <br />
                 <li>
@@ -367,7 +394,7 @@ export const Body = () => {
                   competitive advantage of innovation driven ..., ResearchGate.
                   Available at:
                   https://www.researchgate.net/publication/316767094_Transparency_as_competitive_advantage_of_innovation_driven_companies
-                  (Accessed: 24 March 2024).
+                  (Accessed: 14 April 2024).
                 </li>
               </ol>
             </p>
