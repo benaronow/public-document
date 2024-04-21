@@ -388,14 +388,6 @@ export const Body = () => {
                   https://ieeexplore.ieee.org/document/9942310 (Accessed: 14
                   April 2024).
                 </li>
-                <br />
-                <li>
-                  Zakutniaia, A. and Hayriyan, A. (2017) Transparency as
-                  competitive advantage of innovation driven ..., ResearchGate.
-                  Available at:
-                  https://www.researchgate.net/publication/316767094_Transparency_as_competitive_advantage_of_innovation_driven_companies
-                  (Accessed: 14 April 2024).
-                </li>
               </ol>
             </p>
           )}
